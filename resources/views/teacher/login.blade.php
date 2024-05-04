@@ -35,17 +35,31 @@
                     </div>
                     <div class="login-right">
                         <div class="login-right-wrap"> 
+                            @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <ul>
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                            @endif
+            
+                            @if(Session::has('error-message'))
+                                <p class="alert alert-info">{{ Session::get('error-message') }}</p>
+                            @endif 
                             <h2>Tizimga kirish</h2>
-
-                            <form action="#">
+                            
+                            <form action="{{ route('teacher-login') }}" method="POST">
+                                @csrf
                                 <div class="form-group">
                                     <label>Telefon raqam <span class="login-danger">*</span></label>
-                                    <input class="form-control" type="text">
+                                    <input class="form-control" type="text" name='phone_number'>
                                     <span class="profile-views"><i class="fas fa-user-circle"></i></span>
                                 </div>
                                 <div class="form-group">
                                     <label>Parol <span class="login-danger">*</span></label>
-                                    <input class="form-control pass-input" type="text">
+                                    <input class="form-control pass-input" type="text" name='password'>
                                     <span class="profile-views feather-eye toggle-password"></span>
                                 </div> 
                                 <div class="form-group">
@@ -53,7 +67,7 @@
                                 </div>
                                 <a href="{{ route('home') }}" class="btn btn-block btn-outline-dark">
                                     Ortga
-                                </a>  
+                                </a> 
                             </form> 
 
                         </div>

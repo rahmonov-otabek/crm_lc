@@ -25,3 +25,11 @@ Route::get('/teacher-login', [AuthController::class, 'loginShowTeacher'])->name(
 Route::post('/teacher-login', [AuthController::class, 'loginTeacher'])->name('teacher-login');
 Route::get('/student-login', [AuthController::class, 'loginShowStudent'])->name('student-show-login');
 Route::post('/student-login', [AuthController::class, 'loginStudent'])->name('student-login');
+
+// Dashboard
+Route::get('/admin-dashboard', [AuthController::class, 'dashboardAdmin'])
+    ->middleware(['auth:admin'])->name('admin-dashboard');
+Route::get('/teacher-dashboard', [AuthController::class, 'dashboardTeacher'])
+    ->middleware(['auth:teacher'])->name('teacher-dashboard');
+Route::get('/student-dashboard', [AuthController::class, 'dashboardStudent'])
+    ->middleware(['auth:student'])->name('student-dashboard');
