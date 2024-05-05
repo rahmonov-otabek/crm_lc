@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->float('salary')->default(0);
-            $table->foreignId('direction_id')->constrained()->nullOnDelete();
+            $table->foreignId('direction_id')->nullable()->constrained()->nullOnDelete();
             $table->timestamps();
         });
     }

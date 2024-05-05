@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name');
             $table->string('image')->nullable();
-            $table->foreignId('course_id')->constrained()->nullOnDelete();
-            $table->foreignId('teacher_id')->constrained()->nullOnDelete();
-            $table->foreignId('room_id')->constrained()->nullOnDelete();
+            $table->foreignId('course_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('teacher_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('room_id')->nullable()->constrained()->nullOnDelete();
             $table->time('start_time')->nullable();
             $table->time('end_time')->nullable();
             $table->timestamp("start_date")->nullable();

@@ -12,8 +12,8 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('week_day_group', function (Blueprint $table) {
-            $table->foreignId('week_day_id')->constrained('week_days')->nullOnDelete();
-            $table->foreignId('group_id')->constrained()->nullOnDelete();
+            $table->foreignId('week_day_id')->nullable()->constrained('week_days')->nullOnDelete();
+            $table->foreignId('group_id')->nullable()->constrained()->nullOnDelete();
         });
     }
 
