@@ -25,4 +25,14 @@ class Student extends Authenticatable
         'password',
         'remember_token',
     ];
+
+    public function attendances()
+    {
+        return $this->hasMany(Attendance::class);
+    }
+
+    public function groups()
+    {
+        return $this->belongsToMany(Student::class, 'group_student');
+    }
 }
