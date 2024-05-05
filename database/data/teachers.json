@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Otabek",
+        "profile_pic": "profile_pic1.jpg",
+        "phone_number": "998624122",
+        "salary": 1800.0,
+        "birthday": "1999-01-01",
+        "gender": "Erkak",
+        "password": "teacher123"
+    }, 
+    {
+        "name": "Nigora",
+        "profile_pic": "profile_pic2.jpg",
+        "phone_number": "9902345678",
+        "salary": 1600.0,
+        "birthday": "1981-02-02",
+        "gender": "Ayol",
+        "password": "password2"
+    },
+    {
+        "name": "Sardor",
+        "profile_pic": "profile_pic3.jpg",
+        "phone_number": "9003456789",
+        "salary": 1700.0,
+        "birthday": "1982-03-03",
+        "gender": "Erkak",
+        "password": "password3"
+    },
+    {
+        "name": "Zilola",
+        "profile_pic": "profile_pic4.jpg",
+        "phone_number": "9504567890",
+        "salary": 1800.0,
+        "birthday": "1983-04-04",
+        "gender": "Ayol",
+        "password": "password4"
+    },
+    {
+        "name": "Ulugbek",
+        "profile_pic": "profile_pic5.jpg",
+        "phone_number": "9005678901",
+        "salary": 1900.0,
+        "birthday": "1984-05-05",
+        "gender": "Erkak",
+        "password": "password5"
+    } 
+]

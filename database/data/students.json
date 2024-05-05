@@ -1,0 +1,202 @@
+[
+    {
+        "name": "Otabek",
+        "profile_pic": "profile_pic1.jpg",
+        "phone_number": "998624122",
+        "address": "Toshkent",
+        "cash": 500.0,
+        "birthday": "2000-01-01",
+        "gender": "Erkak",
+        "password": "student123"
+    },
+    {
+        "name": "Nargiza",
+        "profile_pic": "profile_pic2.jpg",
+        "phone_number": "9001234567",
+        "address": "Namangan",
+        "cash": 200.0,
+        "birthday": "2001-02-02",
+        "gender": "Ayol",
+        "password": "password2"
+    },
+    {
+        "name": "Sardor",
+        "profile_pic": "profile_pic3.jpg",
+        "phone_number": "9301234567",
+        "address": "Samarkand",
+        "cash": 300.0,
+        "birthday": "2002-03-03",
+        "gender": "Erkak",
+        "password": "password3"
+    },
+    {
+        "name": "Zilola",
+        "profile_pic": "profile_pic4.jpg",
+        "phone_number": "9701234567",
+        "address": "Bukhara",
+        "cash": 400.0,
+        "birthday": "2003-04-04",
+        "gender": "Ayol",
+        "password": "password4"
+    },
+    {
+        "name": "Ulugbek",
+        "profile_pic": "profile_pic5.jpg",
+        "phone_number": "9501234567",
+        "address": "Andijan",
+        "cash": 500.0,
+        "birthday": "2004-05-05",
+        "gender": "Erkak",
+        "password": "password5"
+    },
+    {
+        "name": "Gulnora",
+        "profile_pic": "profile_pic6.jpg",
+        "phone_number": "9901234568",
+        "address": "Fergana",
+        "cash": 600.0,
+        "birthday": "2005-06-06",
+        "gender": "Ayol",
+        "password": "password6"
+    },
+    {
+        "name": "Jamshid",
+        "profile_pic": "profile_pic7.jpg",
+        "phone_number": "9001234568",
+        "address": "Navoi",
+        "cash": 700.0,
+        "birthday": "2006-07-07",
+        "gender": "Erkak",
+        "password": "password7"
+    },
+    {
+        "name": "Nigina",
+        "profile_pic": "profile_pic8.jpg",
+        "phone_number": "9301234568",
+        "address": "Qashqadaryo",
+        "cash": 800.0,
+        "birthday": "2007-08-08",
+        "gender": "Ayol",
+        "password": "password8"
+    },
+    {
+        "name": "Shukhrat",
+        "profile_pic": "profile_pic9.jpg",
+        "phone_number": "9701234568",
+        "address": "Surxondaryo",
+        "cash": 900.0,
+        "birthday": "2008-09-09",
+        "gender": "Erkak",
+        "password": "password9"
+    },
+    {
+        "name": "Mavluda",
+        "profile_pic": "profile_pic10.jpg",
+        "phone_number": "9501234568",
+        "address": "Jizzakh",
+        "cash": 1000.0,
+        "birthday": "2009-10-10",
+        "gender": "Ayol",
+        "password": "password10"
+    },
+    {
+        "name": "Jahongir",
+        "profile_pic": "profile_pic11.jpg",
+        "phone_number": "9901234569",
+        "address": "Xorazm",
+        "cash": 1100.0,
+        "birthday": "2010-11-11",
+        "gender": "Erkak",
+        "password": "password11"
+    },
+    {
+        "name": "Zarina",
+        "profile_pic": "profile_pic12.jpg",
+        "phone_number": "9001234569",
+        "address": "Toshkent",
+        "cash": 1200.0,
+        "birthday": "2011-12-12",
+        "gender": "Ayol",
+        "password": "password12"
+    },
+    {
+        "name": "Abdulloh",
+        "profile_pic": "profile_pic13.jpg",
+        "phone_number": "9301234569",
+        "address": "Namangan",
+        "cash": 1300.0,
+        "birthday": "2012-01-01",
+        "gender": "Erkak",
+        "password": "password13"
+    },
+    {
+        "name": "Nodira",
+        "profile_pic": "profile_pic14.jpg",
+        "phone_number": "9701234569",
+        "address": "Samarkand",
+        "cash": 1400.0,
+        "birthday": "2013-02-02",
+        "gender": "Ayol",
+        "password": "password14"
+    },
+    {
+        "name": "Islom",
+        "profile_pic": "profile_pic15.jpg",
+        "phone_number": "9501234569",
+        "address": "Bukhara",
+        "cash": 1500.0,
+        "birthday": "2014-03-03",
+        "gender": "Erkak",
+        "password": "password15"
+    },
+    {
+        "name": "Marjona",
+        "profile_pic": "profile_pic16.jpg",
+        "phone_number": "9901234570",
+        "address": "Andijan",
+        "cash": 1600.0,
+        "birthday": "2015-04-04",
+        "gender": "Ayol",
+        "password": "password16"
+    },
+    {
+        "name": "Behzod",
+        "profile_pic": "profile_pic17.jpg",
+        "phone_number": "9001234570",
+        "address": "Fergana",
+        "cash": 1700.0,
+        "birthday": "2016-05-05",
+        "gender": "Erkak",
+        "password": "password17"
+    },
+    {
+        "name": "Rayhon",
+        "profile_pic": "profile_pic18.jpg",
+        "phone_number": "9301234570",
+        "address": "Navoi",
+        "cash": 1800.0,
+        "birthday": "2017-06-06",
+        "gender": "Ayol",
+        "password": "password18"
+    },
+    {
+        "name": "Rustam",
+        "profile_pic": "profile_pic19.jpg",
+        "phone_number": "9701234570",
+        "address": "Qashqadaryo",
+        "cash": 1900.0,
+        "birthday": "2018-07-07",
+        "gender": "Erkak",
+        "password": "password19"
+    },
+    {
+        "name": "Zilola",
+        "profile_pic": "profile_pic20.jpg",
+        "phone_number": "9501234570",
+        "address": "Surxondaryo",
+        "cash": 2000.0,
+        "birthday": "2019-08-08",
+        "gender": "Ayol",
+        "password": "password20"
+    }
+]
