@@ -2,10 +2,10 @@
 
     <div class="header-left">
         <a href="index.html" class="logo">
-            <img src="assets/img/logo.png" alt="Logo">
+            <img src="/assets/img/logo.png" alt="Logo">
         </a>
         <a href="index.html" class="logo logo-small">
-            <img src="assets/img/logo-small.png" alt="Logo" width="30" height="30">
+            <img src="/assets/img/logo-small.png" alt="Logo" width="30" height="30">
         </a>
     </div>
     <div class="menu-toggle">
@@ -29,7 +29,7 @@
         <li class="nav-item dropdown has-arrow new-user-menus">
             <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
                 <span class="user-img">
-                    <img class="rounded-circle" src="assets/img/profiles/avatar-01.jpg" width="31"
+                    <img class="rounded-circle" src="/assets/img/profiles/avatar-01.jpg" width="31"
                         alt="Soeng Souy">
                     <div class="user-text">
                         <h6>Soeng Souy</h6>
@@ -40,7 +40,7 @@
             <div class="dropdown-menu">
                 <div class="user-header">
                     <div class="avatar avatar-sm">
-                        <img src="assets/img/profiles/avatar-01.jpg" alt="User Image"
+                        <img src="/assets/img/profiles/avatar-01.jpg" alt="User Image"
                             class="avatar-img rounded-circle">
                     </div>
                     <div class="user-text">

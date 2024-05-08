@@ -1,19 +1,22 @@
 [
     {
+        "id": 1,
         "name": "Otabek",
-        "profile_pic": "profile_pic1.jpg",
+        "profile_pic": null,
         "phone_number": "998624122",
         "password": "admin123"
     },
     {
+        "id": 2,
         "name": "Ilhom",
-        "profile_pic": "profile_pic2.jpg",
+        "profile_pic": null,
         "phone_number": "991234567",
         "password": "123321"
     },
     {
+        "id": 3,
         "name": "Samandar",
-        "profile_pic": "profile_pic3.jpg",
+        "profile_pic": null,
         "phone_number": "901234567",
         "password": "123321"
     } 

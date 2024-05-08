@@ -1,7 +1,8 @@
 [
     {
+        "id": 1,
         "name": "Otabek",
-        "profile_pic": "profile_pic1.jpg",
+        "profile_pic": null,
         "phone_number": "998624122",
         "address": "Toshkent",
         "cash": 500.0,
@@ -10,9 +11,10 @@
         "password": "student123"
     },
     {
+        "id": 2,
         "name": "Nargiza",
-        "profile_pic": "profile_pic2.jpg",
-        "phone_number": "9001234567",
+        "profile_pic": null,
+        "phone_number": "905123456",
         "address": "Namangan",
         "cash": 200.0,
         "birthday": "2001-02-02",
@@ -20,9 +22,10 @@
         "password": "password2"
     },
     {
+        "id": 3,
         "name": "Sardor",
-        "profile_pic": "profile_pic3.jpg",
-        "phone_number": "9301234567",
+        "profile_pic": null,
+        "phone_number": "930123466",
         "address": "Samarkand",
         "cash": 300.0,
         "birthday": "2002-03-03",
@@ -30,9 +33,10 @@
         "password": "password3"
     },
     {
+        "id": 4,
         "name": "Zilola",
-        "profile_pic": "profile_pic4.jpg",
-        "phone_number": "9701234567",
+        "profile_pic": null,
+        "phone_number": "970123656",
         "address": "Bukhara",
         "cash": 400.0,
         "birthday": "2003-04-04",
@@ -40,9 +44,10 @@
         "password": "password4"
     },
     {
+        "id": 5,
         "name": "Ulugbek",
-        "profile_pic": "profile_pic5.jpg",
-        "phone_number": "9501234567",
+        "profile_pic": null,
+        "phone_number": "950127456",
         "address": "Andijan",
         "cash": 500.0,
         "birthday": "2004-05-05",
@@ -50,9 +55,10 @@
         "password": "password5"
     },
     {
+        "id": 6,
         "name": "Gulnora",
-        "profile_pic": "profile_pic6.jpg",
-        "phone_number": "9901234568",
+        "profile_pic": null,
+        "phone_number": "990123956",
         "address": "Fergana",
         "cash": 600.0,
         "birthday": "2005-06-06",
@@ -60,9 +66,10 @@
         "password": "password6"
     },
     {
+        "id": 7,
         "name": "Jamshid",
-        "profile_pic": "profile_pic7.jpg",
-        "phone_number": "9001234568",
+        "profile_pic": null,
+        "phone_number": "900143456",
         "address": "Navoi",
         "cash": 700.0,
         "birthday": "2006-07-07",
@@ -70,9 +77,10 @@
         "password": "password7"
     },
     {
+        "id": 8,
         "name": "Nigina",
-        "profile_pic": "profile_pic8.jpg",
-        "phone_number": "9301234568",
+        "profile_pic": null,
+        "phone_number": "938123456",
         "address": "Qashqadaryo",
         "cash": 800.0,
         "birthday": "2007-08-08",
@@ -80,9 +88,10 @@
         "password": "password8"
     },
     {
+        "id": 9,
         "name": "Shukhrat",
-        "profile_pic": "profile_pic9.jpg",
-        "phone_number": "9701234568",
+        "profile_pic": null,
+        "phone_number": "970186456",
         "address": "Surxondaryo",
         "cash": 900.0,
         "birthday": "2008-09-09",
@@ -90,9 +99,10 @@
         "password": "password9"
     },
     {
+        "id": 10,
         "name": "Mavluda",
-        "profile_pic": "profile_pic10.jpg",
-        "phone_number": "9501234568",
+        "profile_pic": null,
+        "phone_number": "950623456",
         "address": "Jizzakh",
         "cash": 1000.0,
         "birthday": "2009-10-10",
@@ -100,9 +110,10 @@
         "password": "password10"
     },
     {
+        "id": 11,
         "name": "Jahongir",
-        "profile_pic": "profile_pic11.jpg",
-        "phone_number": "9901234569",
+        "profile_pic": null,
+        "phone_number": "990183456",
         "address": "Xorazm",
         "cash": 1100.0,
         "birthday": "2010-11-11",
@@ -110,9 +121,10 @@
         "password": "password11"
     },
     {
+        "id": 12,
         "name": "Zarina",
-        "profile_pic": "profile_pic12.jpg",
-        "phone_number": "9001234569",
+        "profile_pic": null,
+        "phone_number": "909125456",
         "address": "Toshkent",
         "cash": 1200.0,
         "birthday": "2011-12-12",
@@ -120,9 +132,10 @@
         "password": "password12"
     },
     {
+        "id": 13,
         "name": "Abdulloh",
-        "profile_pic": "profile_pic13.jpg",
-        "phone_number": "9301234569",
+        "profile_pic": null,
+        "phone_number": "930126456",
         "address": "Namangan",
         "cash": 1300.0,
         "birthday": "2012-01-01",
@@ -130,9 +143,10 @@
         "password": "password13"
     },
     {
+        "id": 14,
         "name": "Nodira",
-        "profile_pic": "profile_pic14.jpg",
-        "phone_number": "9701234569",
+        "profile_pic": null,
+        "phone_number": "970993456",
         "address": "Samarkand",
         "cash": 1400.0,
         "birthday": "2013-02-02",
@@ -140,9 +154,10 @@
         "password": "password14"
     },
     {
+        "id": 15,
         "name": "Islom",
-        "profile_pic": "profile_pic15.jpg",
-        "phone_number": "9501234569",
+        "profile_pic": null,
+        "phone_number": "950823456",
         "address": "Bukhara",
         "cash": 1500.0,
         "birthday": "2014-03-03",
@@ -150,9 +165,10 @@
         "password": "password15"
     },
     {
+        "id": 16,
         "name": "Marjona",
-        "profile_pic": "profile_pic16.jpg",
-        "phone_number": "9901234570",
+        "profile_pic": null,
+        "phone_number": "990193457",
         "address": "Andijan",
         "cash": 1600.0,
         "birthday": "2015-04-04",
@@ -160,9 +176,10 @@
         "password": "password16"
     },
     {
+        "id": 17,
         "name": "Behzod",
-        "profile_pic": "profile_pic17.jpg",
-        "phone_number": "9001234570",
+        "profile_pic": null,
+        "phone_number": "906423457",
         "address": "Fergana",
         "cash": 1700.0,
         "birthday": "2016-05-05",
@@ -170,9 +187,10 @@
         "password": "password17"
     },
     {
+        "id": 18,
         "name": "Rayhon",
-        "profile_pic": "profile_pic18.jpg",
-        "phone_number": "9301234570",
+        "profile_pic": null,
+        "phone_number": "930123457",
         "address": "Navoi",
         "cash": 1800.0,
         "birthday": "2017-06-06",
@@ -180,9 +198,10 @@
         "password": "password18"
     },
     {
+        "id": 19,
         "name": "Rustam",
-        "profile_pic": "profile_pic19.jpg",
-        "phone_number": "9701234570",
+        "profile_pic": null,
+        "phone_number": "970123457",
         "address": "Qashqadaryo",
         "cash": 1900.0,
         "birthday": "2018-07-07",
@@ -190,9 +209,10 @@
         "password": "password19"
     },
     {
+        "id": 20,
         "name": "Zilola",
-        "profile_pic": "profile_pic20.jpg",
-        "phone_number": "9501234570",
+        "profile_pic": null,
+        "phone_number": "950123457",
         "address": "Surxondaryo",
         "cash": 2000.0,
         "birthday": "2019-08-08",

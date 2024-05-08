@@ -1,4 +1,4 @@
-@extends('admin.layouts.main')
+@extends('layouts.admin')
 
 @section('title')
     Dashboard
@@ -131,4 +131,23 @@
 
         </div>
     </div> 
+@endsection 
+
+@section('css')
+    <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/feather/feather.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/icons/flags/flags.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/css/fontawesome.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/plugins/fontawesome/css/all.min.cs')}}s">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+@endsection
+
+@section('js')
+    <script src="{{ asset('assets/js/jquery-3.6.0.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{ asset('assets/js/feather.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/slimscroll/jquery.slimscroll.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/apexchart/apexcharts.min.js')}}"></script>
+    <script src="{{ asset('assets/plugins/apexchart/chart-data.js')}}"></script>
+    <script src="{{ asset('assets/js/script.js')}}"></script>
 @endsection

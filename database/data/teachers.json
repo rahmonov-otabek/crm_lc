@@ -1,7 +1,8 @@
 [
     {
+        "id": 1,
         "name": "Otabek",
-        "profile_pic": "profile_pic1.jpg",
+        "profile_pic": null,
         "phone_number": "998624122",
         "salary": 1800.0,
         "birthday": "1999-01-01",
@@ -9,36 +10,40 @@
         "password": "teacher123"
     }, 
     {
+        "id": 2,
         "name": "Nigora",
-        "profile_pic": "profile_pic2.jpg",
-        "phone_number": "9902345678",
+        "profile_pic": null,
+        "phone_number": "990234567",
         "salary": 1600.0,
         "birthday": "1981-02-02",
         "gender": "Ayol",
         "password": "password2"
     },
     {
+        "id": 3,
         "name": "Sardor",
-        "profile_pic": "profile_pic3.jpg",
-        "phone_number": "9003456789",
+        "profile_pic": null,
+        "phone_number": "900345678",
         "salary": 1700.0,
         "birthday": "1982-03-03",
         "gender": "Erkak",
         "password": "password3"
     },
     {
+        "id": 4,
         "name": "Zilola",
-        "profile_pic": "profile_pic4.jpg",
-        "phone_number": "9504567890",
+        "profile_pic": null,
+        "phone_number": "950456789",
         "salary": 1800.0,
         "birthday": "1983-04-04",
         "gender": "Ayol",
         "password": "password4"
     },
     {
+        "id": 5,
         "name": "Ulugbek",
-        "profile_pic": "profile_pic5.jpg",
-        "phone_number": "9005678901",
+        "profile_pic": null,
+        "phone_number": "900567890",
         "salary": 1900.0,
         "birthday": "1984-05-05",
         "gender": "Erkak",

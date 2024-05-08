@@ -5,8 +5,12 @@
                 <li class="menu-title">
                     <span>Main Menu</span>
                 </li>
-                <li class="submenu active">
-                    <a href="#"><i class="feather-grid"></i> <span> Dashboard</span>  </a> 
+                <li class="submenu">
+                    <a href="{{ route('admin.teachers.index') }}"><i class="fas fa-chalkboard-teacher"></i> <span> Dashboard</span> <span
+                        class="menu-arrow"></span></a>
+                <ul>
+                    <li><a href="{{ route('admin-dashboard') }}">Dashboard</a></li>  
+                </ul> 
                 </li>
                 <li class="submenu">
                     <a href="#"><i class="fas fa-graduation-cap"></i> <span> Students</span> <span
@@ -18,14 +22,12 @@
                         <li><a href="#">Student Edit</a></li>
                     </ul>
                 </li>
-                <li class="submenu">
-                    <a href="#"><i class="fas fa-chalkboard-teacher"></i> <span> Teachers</span> <span
+                <li class="submenu"> 
+                    <a href="{{ route('admin.teachers.index') }}"><i class="fas fa-chalkboard-teacher"></i> <span> Teachers</span> <span
                             class="menu-arrow"></span></a>
                     <ul>
-                        <li><a href="#">Teacher List</a></li>
-                        <li><a href="#">Teacher View</a></li>
-                        <li><a href="#">Teacher Add</a></li>
-                        <li><a href="#">Teacher Edit</a></li>
+                        <li><a href="{{ route('admin.teachers.index') }}">Teacher List</a></li> 
+                        <li><a href="{{ route('admin.teachers.create') }}">Teacher Add</a></li> 
                     </ul>
                 </li>
                 <li class="submenu">

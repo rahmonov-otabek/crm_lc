@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\Admin\TeachersController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,8 @@ Route::get('/teacher-dashboard', [AuthController::class, 'dashboardTeacher'])
     ->middleware(['auth:teacher'])->name('teacher-dashboard');
 Route::get('/student-dashboard', [AuthController::class, 'dashboardStudent'])
     ->middleware(['auth:student'])->name('student-dashboard');
+
+// Admin panel 
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::resource('teachers', TeachersController::class); 
+});
