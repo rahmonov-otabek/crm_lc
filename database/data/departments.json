@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "English" 
+    }, 
+    {
+        "id": 2,
+        "name": "Russian" 
+    },
+    {
+        "id": 3,
+        "name": "Backend" 
+    },
+    {
+        "id": 4,
+        "name": "Frontend" 
+    },
+    {
+        "id": 5,
+        "name": "Mobile"  
+    } 
+]
