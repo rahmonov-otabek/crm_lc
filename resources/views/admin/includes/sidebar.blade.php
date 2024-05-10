@@ -51,9 +51,8 @@
                     <a href="#"><i class="fas fa-book-reader"></i> <span> Rooms</span> <span
                             class="menu-arrow"></span></a>
                     <ul>
-                        <li><a href="#">Room List</a></li>
-                        <li><a href="#">Room Add</a></li>
-                        <li><a href="#">Room Edit</a></li>
+                        <li><a href="{{ route('admin.rooms.index') }}">Room List</a></li>
+                        <li><a href="{{ route('admin.rooms.create') }}">Room Add</a></li> 
                     </ul>
                 </li>
                 <li class="submenu">
