@@ -15,9 +15,9 @@ class Course extends Model
         'direction_id'
     ];
 
-    public function direction()
+    public function department()
     {
-        return $this->belongsTo(Direction::class);
+        return $this->belongsTo(Department::class);
     }
 
     public function groups()
