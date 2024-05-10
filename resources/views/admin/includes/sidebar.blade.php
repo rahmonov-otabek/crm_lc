@@ -34,9 +34,8 @@
                     <a href="#"><i class="fas fa-building"></i> <span> Departments</span> <span
                             class="menu-arrow"></span></a>
                     <ul>
-                        <li><a href="#">Department List</a></li>
-                        <li><a href="#">Department Add</a></li>
-                        <li><a href="#">Department Edit</a></li>
+                        <li><a href="{{ route('admin.departments.index') }}">Department List</a></li>
+                        <li><a href="{{ route('admin.departments.create') }}">Department Add</a></li> 
                     </ul>
                 </li>
                 <li class="submenu">

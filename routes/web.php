@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Admin\TeachersController;
+use App\Http\Controllers\Admin\DepartmentsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,4 +39,5 @@ Route::get('/student-dashboard', [AuthController::class, 'dashboardStudent'])
 // Admin panel 
 Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('teachers', TeachersController::class); 
+    Route::resource('departments', DepartmentsController::class)->except(['show']); 
 });
