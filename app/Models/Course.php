@@ -12,7 +12,7 @@ class Course extends Model
     protected $fillable = [
         'name',
         'salary',
-        'direction_id'
+        'department_id'
     ];
 
     public function department()

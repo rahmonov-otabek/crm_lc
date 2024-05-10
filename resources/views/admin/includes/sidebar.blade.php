@@ -42,9 +42,8 @@
                     <a href="#"><i class="fas fa-book-reader"></i> <span>Courses</span> <span
                             class="menu-arrow"></span></a>
                     <ul>
-                        <li><a href="#">Course List</a></li>
-                        <li><a href="#">Course Add</a></li>
-                        <li><a href="#">Course Edit</a></li>
+                        <li><a href="{{ route('admin.courses.index') }}">Course List</a></li>
+                        <li><a href="{{ route('admin.courses.create') }}">Course Add</a></li> 
                     </ul>
                 </li>
                 <li class="submenu">

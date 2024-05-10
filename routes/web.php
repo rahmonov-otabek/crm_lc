@@ -5,6 +5,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\Admin\TeachersController;
 use App\Http\Controllers\Admin\DepartmentsController;
 use App\Http\Controllers\Admin\RoomController;
+use App\Http\Controllers\Admin\CoursesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,4 +43,5 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('teachers', TeachersController::class); 
     Route::resource('departments', DepartmentsController::class)->except(['show']); 
     Route::resource('rooms', RoomController::class)->except(['show']);
+    Route::resource('courses', CoursesController::class)->except(['show']);
 });
