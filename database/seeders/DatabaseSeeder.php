@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
             DepartmentSeeder::class,
             RoomSeeder::class,
             CourseSeeder::class,
+            WeekDaySeeder::class,
+            GroupSeeder::class
             ]); 
     }
 }

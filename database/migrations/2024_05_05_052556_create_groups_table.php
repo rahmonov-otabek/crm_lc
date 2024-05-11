@@ -20,8 +20,8 @@ return new class extends Migration
             $table->foreignId('room_id')->nullable()->constrained()->nullOnDelete();
             $table->time('start_time')->nullable();
             $table->time('end_time')->nullable();
-            $table->timestamp("start_date")->nullable();
-            $table->timestamp("end_date")->nullable();
+            $table->date("start_date")->nullable();
+            $table->date("end_date")->nullable();
             $table->timestamps();
         });
     }

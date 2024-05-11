@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Dushanba" 
+    }, 
+    {
+        "id": 2,
+        "name": "Seshanba" 
+    },
+    {
+        "id": 3,
+        "name": "Chorshanba" 
+    },
+    {
+        "id": 4,
+        "name": "Payshanba" 
+    },
+    {
+        "id": 5,
+        "name": "Juma"  
+    },
+    {
+        "id": 6,
+        "name": "Shanba" 
+    },
+    {
+        "id": 7,
+        "name": "Yakshanba"  
+    }  
+]
