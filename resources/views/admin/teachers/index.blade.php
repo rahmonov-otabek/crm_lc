@@ -54,9 +54,9 @@
                         <div class="row align-items-center">
                             <div class="col">
                                 <h3 class="page-title">Ustozlar</h3>
-                            </div>
+                            </div> 
                             <div class="col-auto text-end float-end ms-auto download-grp">
-                                <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
+                                <a href="{{ route('get_teachers') }}" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
                                     Yuklab olish</a>
                                 <a href="{{ route('admin.teachers.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i></a>
                             </div>

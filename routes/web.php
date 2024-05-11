@@ -8,6 +8,7 @@ use App\Http\Controllers\Admin\DepartmentsController;
 use App\Http\Controllers\Admin\RoomController;
 use App\Http\Controllers\Admin\CoursesController;
 use App\Http\Controllers\Admin\GroupsController;
+use App\Http\Controllers\ExportToExcelController;
 
 
 /*
@@ -48,5 +49,13 @@ Route::prefix('admin')->name('admin.')->group(function () {
     Route::resource('departments', DepartmentsController::class)->except(['show']); 
     Route::resource('rooms', RoomController::class)->except(['show']);
     Route::resource('courses', CoursesController::class)->except(['show']);
-    Route::resource('groups', GroupsController::class);
+    Route::resource('groups', GroupsController::class); 
 });
+
+// Export to excel
+Route::get('teachers/export/', [ExportToExcelController::class, 'get_teachers'])->name('get_teachers');
+Route::get('students/export/', [ExportToExcelController::class, 'get_students'])->name('get_students');
+Route::get('groups/export/', [ExportToExcelController::class, 'get_groups'])->name('get_groups');
+Route::get('departments/export/', [ExportToExcelController::class, 'get_departments'])->name('get_departments');
+Route::get('courses/export/', [ExportToExcelController::class, 'get_courses'])->name('get_courses');
+Route::get('rooms/export/', [ExportToExcelController::class, 'get_rooms'])->name('get_rooms');

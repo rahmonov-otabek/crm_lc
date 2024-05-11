@@ -56,7 +56,7 @@
                                 <h3 class="page-title">Guruhlar</h3>
                             </div>
                             <div class="col-auto text-end float-end ms-auto download-grp">
-                                <a href="#" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
+                                <a href="{{ route('get_groups') }}" class="btn btn-outline-primary me-2"><i class="fas fa-download"></i>
                                     Yuklab olish</a>
                                 <a href="{{ route('admin.groups.create') }}" class="btn btn-primary"><i class="fas fa-plus"></i></a>
                             </div>
