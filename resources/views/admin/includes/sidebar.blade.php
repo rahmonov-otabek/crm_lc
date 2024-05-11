@@ -31,6 +31,14 @@
                     </ul>
                 </li>
                 <li class="submenu">
+                    <a href="#"><i class="fas fa-building"></i> <span> Groups</span> <span
+                            class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="{{ route('admin.groups.index') }}">Group List</a></li>
+                        <li><a href="{{ route('admin.groups.create') }}">Group Add</a></li> 
+                    </ul>
+                </li>
+                <li class="submenu">
                     <a href="#"><i class="fas fa-building"></i> <span> Departments</span> <span
                             class="menu-arrow"></span></a>
                     <ul>

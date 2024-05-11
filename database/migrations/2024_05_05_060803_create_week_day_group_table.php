@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('week_day_group', function (Blueprint $table) {
             $table->foreignId('week_day_id')->nullable()->constrained('week_days')->nullOnDelete();
-            $table->foreignId('group_id')->nullable()->constrained()->nullOnDelete();
+            $table->foreignId('group_id')->nullable()->constrained()->cascadeOnDelete();
         });
     }
 

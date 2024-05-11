@@ -18,7 +18,7 @@ class GroupSeeder extends Seeder
         $groups = json_decode($json);
   
         foreach ($groups as $key => $value) {
-            Group::create([
+            $group = Group::create([
                 "name" => $value->name,
                 "image" => $value->image, 
                 "course_id" => $value->course_id,
@@ -29,6 +29,7 @@ class GroupSeeder extends Seeder
                 "start_date" => $value->start_date, 
                 "end_date" => $value->end_date, 
             ]); 
+            $group->week_days()->attach($value->week_days); 
         }
     }
 }
