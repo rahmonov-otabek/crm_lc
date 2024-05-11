@@ -16,10 +16,8 @@
                     <a href="#"><i class="fas fa-graduation-cap"></i> <span> Students</span> <span
                             class="menu-arrow"></span></a>
                     <ul>
-                        <li><a href="#">Student List</a></li>
-                        <li><a href="#">Student View</a></li>
-                        <li><a href="#">Student Add</a></li>
-                        <li><a href="#">Student Edit</a></li>
+                        <li><a href="{{ route('admin.students.index') }}">Student List</a></li> 
+                        <li><a href="{{ route('admin.students.create') }}">Student Add</a></li> 
                     </ul>
                 </li>
                 <li class="submenu"> 

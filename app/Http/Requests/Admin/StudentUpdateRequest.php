@@ -4,7 +4,7 @@ namespace App\Http\Requests\Admin;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class TeacherUpdateRequest extends FormRequest
+class StudentUpdateRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -22,10 +22,11 @@ class TeacherUpdateRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'sometimes|required|max:255', 
-            'phone_number' => 'sometimes|required|max:13|unique:teachers,phone_number,' . $this->teacher->id, 
+            'name' => 'sometimes|required|max:255',
+            'phone_number' => 'sometimes|required|max:13|unique:teachers,phone_number',
             'profile_pic' => 'sometimes|nullable|image|mimes:jpeg,jpg,png', 
-            "salary" => 'sometimes|nullable',
+            "cash" => 'sometimes|nullable',
+            "address" => 'sometimes|nullable',
             "birthday" => 'sometimes|nullable',
             "gender" => 'sometimes|nullable' 
         ];

@@ -1,14 +1,14 @@
 @extends('layouts.admin')
 
 @section('title')
-    Teachers Edit
+    Students Edit
 @endsection
 
 @section('content')
 <div class="page-header">
     <div class="row align-items-center">
         <div class="col">
-            <h3 class="page-title">Ustoz qo'shish</h3> 
+            <h3 class="page-title">O'quvchi ma'lumotlarini o'zgartirish</h3> 
         </div>
     </div>
 </div>
@@ -25,7 +25,7 @@
     <div class="col-sm-12">
         <div class="card">
             <div class="card-body">
-                <form action="{{ route('admin.teachers.update', $teacher->id )}}" method="POST" enctype="multipart/form-data">
+                <form action="{{ route('admin.students.update', $student->id )}}" method="POST" enctype="multipart/form-data">
                     @csrf
                     @method("PUT")
                     <div class="row">
@@ -33,12 +33,12 @@
                             <h5 class="form-title"><span>Asosiy qism</span></h5>
                         </div> 
                         <div class="col-1">
-                            <a href="{{ route('admin.teachers.index') }}"><button type="button" class="btn btn-light">Ortga</button></a>
+                            <a href="{{ route('admin.students.index') }}"><button type="button" class="btn btn-light">Ortga</button></a>
                         </div>
                         <div class="col-12 col-sm-4">
                             <div class="form-group local-forms">
                                 <label>Ism <span class="login-danger">*</span></label>
-                                <input type="text" class="form-control" value="{{ $teacher->name }}" name="name" placeholder="Ism kiriting" @error('name')  is-invalid @enderror/>
+                                <input type="text" class="form-control" value="{{ $student->name }}" name="name" placeholder="Ism kiriting" @error('name')  is-invalid @enderror/>
                                 @error('name') <div class="invalid-feedback"> {{ $message }} </div> @enderror
                             </div>
                         </div>
@@ -53,14 +53,14 @@
                             <div class="form-group local-forms">
                                 <label>Jins <span class="login-danger">*</span></label>
                                 <select class="form-control select" name="gender">
-                                    @if ($teacher->gender=='Erkak')
+                                    @if ($student->gender=='Erkak')
                                         <option selected="selected">
-                                            {{ $teacher->gender }} 
+                                            {{ $student->gender }} 
                                         </option>
                                         <option>Ayol</option>  
-                                    @elseif ($teacher->gender=='Ayol')
+                                    @elseif ($student->gender=='Ayol')
                                     <option selected="selected">
-                                        {{ $teacher->gender }} 
+                                        {{ $student->gender }} 
                                     </option>
                                     <option>Erkak</option>  
                                     @endif  
@@ -71,15 +71,22 @@
                             <div class="form-group local-forms calendar-icon">
                                 <label>Date Of Birth
                                     <span class="login-danger">*</span></label>
-                                <input class="form-control datetimepicker" type="text" value="{{ $teacher->birthday }} " placeholder="DD-MM-YYYY" name="birthday" @error('birthday')  is-invalid @enderror/>
+                                <input class="form-control datetimepicker" type="text" value="{{ $student->birthday }} " placeholder="DD-MM-YYYY" name="birthday" @error('birthday')  is-invalid @enderror/>
                                 @error('birthday') <div class="invalid-feedback"> {{ $message }} </div> @enderror
                             </div>
                         </div>  
                         <div class="col-12 col-sm-4">
                             <div class="form-group local-forms">
-                                <label>Oylik <span class="login-danger">*</span></label>
-                                <input type="text" class="form-control" name="salary" value="{{ $teacher->salary }} " placeholder="Oylik kiriting"  @error('salary')  is-invalid @enderror/>
-                                @error('salary') <div class="invalid-feedback"> {{ $message }} </div> @enderror
+                                <label>Balans <span class="login-danger">*</span></label>
+                                <input type="text" class="form-control" name="cash" value="{{ $student->cash }} " placeholder="Balansni kiriting"  @error('cash')  is-invalid @enderror/>
+                                @error('cash') <div class="invalid-feedback"> {{ $message }} </div> @enderror
+                            </div>
+                        </div> 
+                        <div class="col-12 col-sm-4">
+                            <div class="form-group local-forms">
+                                <label>Manzil <span class="login-danger">*</span></label>
+                                <input type="text" class="form-control" name="address" value="{{ $student->address }} " placeholder="Manzilni kiriting"  @error('address')  is-invalid @enderror/>
+                                @error('address') <div class="invalid-feedback"> {{ $message }} </div> @enderror
                             </div>
                         </div> 
                         <div class="col-12">
@@ -88,7 +95,7 @@
                         <div class="col-12 col-sm-4">
                             <div class="form-group local-forms">
                                 <label>Telefon raqam <span class="login-danger">*</span></label>
-                                <input type="text" class="form-control" value="{{ $teacher->phone_number }} " name="phone_number" placeholder="Telefon raqan kiriting" @error('phone_number')  is-invalid @enderror/>
+                                <input type="text" class="form-control" value="{{ $student->phone_number }} " name="phone_number" placeholder="Telefon raqan kiriting" @error('phone_number')  is-invalid @enderror/>
                                 @error('phone_number') <div class="invalid-feedback"> {{ $message }} </div> @enderror
                             </div>
                         </div> 
