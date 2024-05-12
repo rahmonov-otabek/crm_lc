@@ -28,7 +28,9 @@ class StudentUpdateRequest extends FormRequest
             "cash" => 'sometimes|nullable',
             "address" => 'sometimes|nullable',
             "birthday" => 'sometimes|nullable',
-            "gender" => 'sometimes|nullable' 
+            "gender" => 'sometimes|nullable',
+            "groups" => 'sometimes|nullable|array',  
+            "groups.*" => 'integer|exists:groups,id',  
         ];
     }
 }

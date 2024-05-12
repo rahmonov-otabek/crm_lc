@@ -30,6 +30,8 @@ class StudentStoreRequest extends FormRequest
             "birthday" => 'nullable',
             "gender" => 'nullable',
             'password' => 'required|min:6|confirmed', 
+            "groups" => 'nullable|array',  
+            "groups.*" => 'integer|exists:groups,id', 
         ];
     }
 }

@@ -33,6 +33,6 @@ class Student extends Authenticatable
 
     public function groups()
     {
-        return $this->belongsToMany(Student::class, 'group_student');
+        return $this->belongsToMany(Group::class, 'group_student');
     }
 }

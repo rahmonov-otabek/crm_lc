@@ -104,7 +104,7 @@
                                 <br>
                                 @foreach ($week_days as $week_day)
                                     <input type="checkbox" style="margin-left: 10px" id="{{ $week_day->name }}" name="week_days[]" value="{{ $week_day->id }}"> 
-                                    <label for="{{ $week_day->name }}"  >{{ $week_day->name }}</label>   
+                                    <label for="{{ $week_day->name }}"  >{{ $week_day->name }}</label>
                                 @endforeach 
                             </div>
                             <div class="col-12">

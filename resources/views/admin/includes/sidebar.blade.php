@@ -59,19 +59,7 @@
                         <li><a href="{{ route('admin.rooms.index') }}">Room List</a></li>
                         <li><a href="{{ route('admin.rooms.create') }}">Room Add</a></li> 
                     </ul>
-                </li>
-                <li class="submenu">
-                    <a href="#"><i class="fas fa-clipboard"></i> <span> Invoices</span> <span
-                            class="menu-arrow"></span></a>
-                    <ul>
-                        <li><a href="#">Invoices List</a></li>
-                        <li><a href="#">Invoices Grid</a></li>
-                        <li><a href="#">Add Invoices</a></li>
-                        <li><a href="#">Edit Invoices</a></li>
-                        <li><a href="#">Invoices Details</a></li>
-                        <li><a href="#">Invoices Settings</a></li>
-                    </ul>
-                </li> 
+                </li>  
                  
             </ul>
         </div>

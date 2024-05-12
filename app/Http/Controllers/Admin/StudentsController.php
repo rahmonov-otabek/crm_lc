@@ -9,6 +9,7 @@ use App\Http\Requests\Admin\StudentUpdateRequest;
 use App\Helpers\UploadHelper;
 
 use App\Models\Student;
+use App\Models\Group;
 use Carbon\Carbon; 
 
 class StudentsController extends Controller
@@ -26,15 +27,16 @@ class StudentsController extends Controller
      * Show the form for creating a new resource.
      */
     public function create()
-    {
-        return view('admin.students.create');
+    { 
+        $groups = Group::all();
+        return view('admin.students.create', compact('groups'));
     }
 
     /**
      * Store a newly created resource in storage.
      */
     public function store(StudentStoreRequest $request)
-    {
+    {  
         $validated = $request->validated(); 
         
         if(!empty($validated['profile_pic'])) { 
@@ -43,7 +45,7 @@ class StudentsController extends Controller
             $validated['profile_pic'] = null;
         } 
   
-        Student::create([
+        $student = Student::create([
             "name" => $validated['name'],
             "profile_pic" => $validated['profile_pic'],
             "phone_number" => $validated['phone_number'], 
@@ -53,6 +55,8 @@ class StudentsController extends Controller
             "gender" => $validated['gender'],
             "password" => bcrypt($validated['password'])
         ]);
+         
+        $student->groups()->attach($validated['groups']);
 
         return redirect()->route('admin.students.index')->with('success', 'Student created successfully');
     }
@@ -70,7 +74,8 @@ class StudentsController extends Controller
      */
     public function edit(Student $student)
     {
-        return view('admin.students.edit', compact('student'));
+        $groups = Group::all();
+        return view('admin.students.edit', compact('student', 'groups'));
     }
 
     /**
@@ -96,6 +101,8 @@ class StudentsController extends Controller
             "birthday" => Carbon::createFromFormat('d-m-Y', $validated['birthday'])->format('Y-m-d'),
             "gender" => $validated['gender'] 
         ]);
+        
+        $student->groups()->sync($validated['groups']); 
 
         return redirect()->route('admin.students.index')->with('success', 'Student updated successfully');
     }

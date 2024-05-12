@@ -80,6 +80,16 @@
                                 </div>
                             </div> 
                             <div class="col-12">
+                                <h5 class="form-title"><span>Guruhga qo'shish</span></h5>
+                              
+                            </div> 
+                              <select id="demo-multiple-select" multiple style="hight: 200px" name="groups[]">
+                                @foreach ($groups as $group) 
+                                    <option value="{{ $group->id }}">{{ $group->name }}</option> 
+                                @endforeach
+                              </select> 
+                              <br>
+                            <div class="col-12">
                                 <h5 class="form-title"><span>Login ma'lumotlari</span></h5>
                             </div> 
                             <div class="col-12 col-sm-4">
@@ -102,7 +112,7 @@
                                         <span class="login-danger">*</span></label>
                                     <input type="text" class="form-control" name="password_confirmation" placeholder="Parolni takrorlang" />
                                 </div>
-                            </div> 
+                            </div>  
                             <div class="col-12">
                                 <div class="student-submit">
                                     <button type="submit" class="btn btn-primary">
@@ -133,6 +143,17 @@
     <link rel="stylesheet" href="{{ asset('assets/plugins/select2/css/select2.min.css') }}">
 
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+    <style>
+        #demo-multiple-select {
+            height: 200px;
+            width: 100%; /* Bo'yining to'liq ekran eni bo'lsa qulaylikdir */
+            padding: 5px; /* Tanlash maydonining eng pastki ko'rinishi */
+            border-radius: 5px; /* To'g'ri burchaklarni engil tizmalar */
+            border: 1px solid #ced4da; /* Boridan qurilgan cho'qqisi */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Uchdan oshmasdan pastki ko'rinishi */
+            margin-bottom: 20px;
+            }
+    </style>
 @endsection
 
 @section('js')
@@ -150,4 +171,10 @@
     <script src="{{ asset('assets/js/bootstrap-datetimepicker.min.js') }}"></script>
 
     <script src="{{ asset('assets/js/script.js') }}"></script>
+    <script>
+        $('#multiple-select').mobiscroll().select({
+            inputElement: document.getElementById('my-input'),
+            touchUi: false
+        });
+    </script>
 @endsection
