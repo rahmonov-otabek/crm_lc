@@ -18,7 +18,7 @@ class StudentSeeder extends Seeder
         $students = json_decode($json);
   
         foreach ($students as $key => $value) {
-            Student::create([
+            $student = Student::create([
                 "name" => $value->name,
                 "profile_pic" => $value->profile_pic,
                 "phone_number" => $value->phone_number,
@@ -28,6 +28,7 @@ class StudentSeeder extends Seeder
                 "gender" => $value->gender,
                 "password" => bcrypt($value->password)
             ]);
+            $student->groups()->attach($value->groups); 
         } 
     } 
 }

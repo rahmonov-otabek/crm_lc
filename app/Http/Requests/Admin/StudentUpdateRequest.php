@@ -23,7 +23,7 @@ class StudentUpdateRequest extends FormRequest
     {
         return [
             'name' => 'sometimes|required|max:255',
-            'phone_number' => 'sometimes|required|max:13|unique:teachers,phone_number',
+            'phone_number' => 'sometimes|required|max:13|unique:teachers,phone_number,'. $this->student->id, 
             'profile_pic' => 'sometimes|nullable|image|mimes:jpeg,jpg,png', 
             "cash" => 'sometimes|nullable',
             "address" => 'sometimes|nullable',

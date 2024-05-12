@@ -71,7 +71,18 @@
                                         <h4>Tug'ilgan kuni</h4>
                                         <h5>{{ $student->birthday }} </h5>
                                     </div>
-                                </div>  
+                                </div>   
+                                <div class="personal-activity">
+                                    <div class="personal-icons">
+                                        <i class="feather-calendar"></i>
+                                    </div>
+                                    <div class="views-personal">
+                                        <h4>Guruhlar</h4>
+                                        @foreach ($student->groups as $group)
+                                            <h5>{{ $group->name }} </h5> 
+                                        @endforeach 
+                                    </div>
+                                </div> 
                             </div>
                         </div>
                     </div> 

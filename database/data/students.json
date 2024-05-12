@@ -8,7 +8,10 @@
         "cash": 500.0,
         "birthday": "2000-01-01",
         "gender": "Erkak",
-        "password": "student123"
+        "password": "student123",
+        "groups" : [
+            1,7,10 
+        ]
     },
     {
         "id": 2,
@@ -19,7 +22,10 @@
         "cash": 200.0,
         "birthday": "2001-02-02",
         "gender": "Ayol",
-        "password": "password2"
+        "password": "password2",
+        "groups" : [
+            5,10,15
+        ]
     },
     {
         "id": 3,
@@ -30,7 +36,10 @@
         "cash": 300.0,
         "birthday": "2002-03-03",
         "gender": "Erkak",
-        "password": "password3"
+        "password": "password3",
+        "groups" : [
+            3,5,9 
+        ]
     },
     {
         "id": 4,
@@ -41,7 +50,10 @@
         "cash": 400.0,
         "birthday": "2003-04-04",
         "gender": "Ayol",
-        "password": "password4"
+        "password": "password4",
+        "groups" : [
+            4,8 
+        ]
     },
     {
         "id": 5,
@@ -52,7 +64,10 @@
         "cash": 500.0,
         "birthday": "2004-05-05",
         "gender": "Erkak",
-        "password": "password5"
+        "password": "password5",
+        "groups" : [
+            1,5,9 
+        ]
     },
     {
         "id": 6,
@@ -63,7 +78,10 @@
         "cash": 600.0,
         "birthday": "2005-06-06",
         "gender": "Ayol",
-        "password": "password6"
+        "password": "password6",
+        "groups" : [
+            6,7 
+        ]
     },
     {
         "id": 7,
@@ -74,7 +92,10 @@
         "cash": 700.0,
         "birthday": "2006-07-07",
         "gender": "Erkak",
-        "password": "password7"
+        "password": "password7",
+        "groups" : [
+            4,5 
+        ]
     },
     {
         "id": 8,
@@ -85,7 +106,10 @@
         "cash": 800.0,
         "birthday": "2007-08-08",
         "gender": "Ayol",
-        "password": "password8"
+        "password": "password8",
+        "groups" : [
+            10,15,18 
+        ]
     },
     {
         "id": 9,
@@ -96,7 +120,10 @@
         "cash": 900.0,
         "birthday": "2008-09-09",
         "gender": "Erkak",
-        "password": "password9"
+        "password": "password9",
+        "groups" : [
+            10,12,19
+        ]
     },
     {
         "id": 10,
@@ -107,7 +134,10 @@
         "cash": 1000.0,
         "birthday": "2009-10-10",
         "gender": "Ayol",
-        "password": "password10"
+        "password": "password10",
+        "groups" : [
+            3,4,8 
+        ]
     },
     {
         "id": 11,
@@ -118,7 +148,10 @@
         "cash": 1100.0,
         "birthday": "2010-11-11",
         "gender": "Erkak",
-        "password": "password11"
+        "password": "password11",
+        "groups" : [
+            2,5,17 
+        ]
     },
     {
         "id": 12,
@@ -129,7 +162,10 @@
         "cash": 1200.0,
         "birthday": "2011-12-12",
         "gender": "Ayol",
-        "password": "password12"
+        "password": "password12",
+        "groups" : [
+            11,15 
+        ]
     },
     {
         "id": 13,
@@ -140,7 +176,10 @@
         "cash": 1300.0,
         "birthday": "2012-01-01",
         "gender": "Erkak",
-        "password": "password13"
+        "password": "password13",
+        "groups" : [
+            9,13 
+        ]
     },
     {
         "id": 14,
@@ -151,7 +190,10 @@
         "cash": 1400.0,
         "birthday": "2013-02-02",
         "gender": "Ayol",
-        "password": "password14"
+        "password": "password14",
+        "groups" : [
+            8, 12 
+        ]
     },
     {
         "id": 15,
@@ -162,7 +204,10 @@
         "cash": 1500.0,
         "birthday": "2014-03-03",
         "gender": "Erkak",
-        "password": "password15"
+        "password": "password15",
+        "groups" : [
+            7, 10 
+        ]
     },
     {
         "id": 16,
@@ -173,7 +218,10 @@
         "cash": 1600.0,
         "birthday": "2015-04-04",
         "gender": "Ayol",
-        "password": "password16"
+        "password": "password16",
+        "groups" : [
+            7,8 
+        ]
     },
     {
         "id": 17,
@@ -184,7 +232,10 @@
         "cash": 1700.0,
         "birthday": "2016-05-05",
         "gender": "Erkak",
-        "password": "password17"
+        "password": "password17",
+        "groups" : [
+            5,12 
+        ]
     },
     {
         "id": 18,
@@ -195,7 +246,10 @@
         "cash": 1800.0,
         "birthday": "2017-06-06",
         "gender": "Ayol",
-        "password": "password18"
+        "password": "password18",
+        "groups" : [
+            3,7 
+        ]
     },
     {
         "id": 19,
@@ -206,7 +260,10 @@
         "cash": 1900.0,
         "birthday": "2018-07-07",
         "gender": "Erkak",
-        "password": "password19"
+        "password": "password19",
+        "groups" : [
+            1, 6, 7  
+        ]
     },
     {
         "id": 20,
@@ -217,6 +274,9 @@
         "cash": 2000.0,
         "birthday": "2019-08-08",
         "gender": "Ayol",
-        "password": "password20"
+        "password": "password20",
+        "groups" : [
+            1, 4, 8 
+        ]
     }
 ]
