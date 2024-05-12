@@ -34,6 +34,9 @@ Route::post('/teacher-login', [AuthController::class, 'loginTeacher'])->name('te
 Route::get('/student-login', [AuthController::class, 'loginShowStudent'])->name('student-show-login');
 Route::post('/student-login', [AuthController::class, 'loginStudent'])->name('student-login');
 
+// Auth logout
+Route::get('/admin-logout', [AuthController::class, 'logoutAdmin'])->name('admin-logout');
+
 // Dashboard
 Route::get('/admin-dashboard', [AuthController::class, 'dashboardAdmin'])
     ->middleware(['auth:admin'])->name('admin-dashboard');

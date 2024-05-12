@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Auth;
 use App\Models\Student;
 use App\Models\Teacher;
 use App\Models\Department;
@@ -92,4 +93,11 @@ class AuthController extends Controller
     {
         return view('student.dashboard');
     }
+
+    public function logoutAdmin()
+    { 
+        Auth::guard('admin')->logout();  
+
+    return redirect('/');
+}
 }
