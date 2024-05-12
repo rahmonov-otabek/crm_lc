@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Student;
+use App\Models\Teacher;
+use App\Models\Department;
 
 class AuthController extends Controller
 {
@@ -73,7 +76,11 @@ class AuthController extends Controller
 
     public function dashboardAdmin(Request $request)
     {
-        return view('admin.dashboard');
+        $students = Student::count();
+        $teachers = Teacher::count();
+        $departments = Department::count();
+
+        return view('admin.dashboard', compact('students', 'teachers', 'departments'));
     }
 
     public function dashboardTeacher(Request $request)
